@@ -58,25 +58,5 @@ En la carpeta `notebooks/` encontrarás los Jupyter Notebooks con todo el proces
 2. **Modelos** (`modelos_prediccion_btc.ipynb`)  
    🤖 Creación y entrenamiento modelos de entrenamiento Random Forest y red neuronal LSTM para predicción de tendencias. Comparacion de metricas y seleccion del mejor modelo. 
 
-## 📁 Estructura del proyecto
-📦 Prediccion_Bitcoin
-┣ 📂 api                  # Carpeta para la API en FastAPI
-┃ ┣ 📜 API_btc_prediccion.py         # Código de la API
-┃ ┣ 📜 btc_lstm_model.h5  # Modelo LSTM guardado
-┃ ┣ 📜 scaler.pkl         # Scaler guardado
-┃ ┣ 📜 requirements.txt   # Librerías necesarias
-┣ 📂 dashboard            # Carpeta para el dashboard en Streamlit
-┃ ┣ 📜 dashboard_streamlit.py       # Código de Streamlit
-┃ ┣ 📜 requirements.txt   # Librerías necesarias para Streamlit
-┣ 📂 notebooks            # Carpeta con los Jupyter Notebooks de entrenamiento
-┃ ┣ 📜 analisis.ipynb       # Análisis exploratorio de los datos
-┃ ┣ 📜 modelos_prediccion_btc.ipynb      # Entrenamiento del modelo Random Forest y LSTM y comparación de los mismos
-┣ 📂 data                 # Datos utilizados (opcional, solo si compartes muestras)
-┃ ┣ 📜 datos_binance.py   # Script para obtener los datos de la API de Binance
-┃ ┣ 📜 btc_data.csv   # Dataset original obtenido de la API de Binance
-┃ ┣ 📜 btc_data_features.csv   # Dataset con features generados en entrenamiento de modelos
-┃ ┗ 📜 btc_features.csv   # Dataset con features (sin datos sensibles)
-┣ 📜 .gitignore           # Archivos a ignorar en Git
-┗ 📜 README.md            # Explicación general del proyecto
 
 
