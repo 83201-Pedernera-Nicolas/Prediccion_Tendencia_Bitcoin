@@ -40,11 +40,11 @@ curl -X 'POST' 'http://127.0.0.1:8000/predict/' -H 'Content-Type: application/js
 
 ## 📊 Dashboard en Streamlit
 
-### 📌 Cómo ejecutar el dashboard
+### 📌 **Cómo ejecutar el dashboard**
 1. Instalar dependencias:
    ```bash
    cd dashboard
-pip install -r requirements.txt
+   pip install -r requirements.txt
 2. Ejecutar el dashboard:
    ```bash
    streamlit run dashboard.py
