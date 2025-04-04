@@ -56,7 +56,9 @@ En la carpeta `notebooks/` encontrarás los Jupyter Notebooks con todo el proces
 1. **Exploración de Datos** (`analisis.ipynb`)  
    📊 Análisis inicial de los datos, generación de gráficos y limpieza.  
 2. **Modelos** (`modelos_prediccion_btc.ipynb`)  
-   🤖 Creación y entrenamiento modelos de entrenamiento Random Forest y red neuronal LSTM para predicción de tendencias. Comparacion de metricas y seleccion del mejor modelo. 
+   🤖 Creación y entrenamiento modelos de entrenamiento Random Forest y red neuronal LSTM para predicción de tendencias. Comparacion de metricas y seleccion del mejor modelo.
+
+El nivel de presición del modelo final es de 0.81  
 
 
 
